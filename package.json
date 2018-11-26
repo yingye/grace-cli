@@ -1,0 +1,27 @@
+{
+  "name": "grace-sdk-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "grace-sdk": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingye/grace-sdk-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yingye/grace-sdk-cli/issues"
+  },
+  "homepage": "https://github.com/yingye/grace-sdk-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.0"
+  }
+}
